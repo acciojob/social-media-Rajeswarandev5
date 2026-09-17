@@ -1,1 +1,151 @@
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f6fa;
+  color: #333;
+}
+
+.navigation {
+  display: flex;
+  gap: 25px;
+  padding: 18px 40px;
+  background: #1976d2;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.page {
+  width: 90%;
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+.page h1 {
+  margin-bottom: 25px;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.tabs a {
+  padding: 10px 18px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+}
+
+.posts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.post {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
+}
+
+.post h2 {
+  margin-top: 0;
+}
+
+.author {
+  color: #777;
+  font-size: 14px;
+}
+
+.reactions {
+  display: flex;
+  gap: 8px;
+  margin: 15px 0;
+}
+
+.reactions button {
+  border: 1px solid #ddd;
+  background: white;
+  padding: 7px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button {
+  padding: 10px 18px;
+  background: #1976d2;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.users-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.user-card {
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #1976d2;
+}
+
+.user-posts {
+  margin-top: 30px;
+}
+
+.notifications {
+  margin-top: 20px;
+}
+
+.notification {
+  background: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.post-form {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.post-form input,
+.post-form select,
+.post-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.post-form textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.post-form .button {
+  margin-top: 10px;
+}
